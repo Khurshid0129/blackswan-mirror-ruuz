@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Excellence in Legal Services",
+    "subtitle": "Black Swan Law provides comprehensive legal solutions with unwavering commitment to client success",
+    "cta": "Get Consultation",
+    "experience": "Years of Excellence"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive legal solutions tailored to your needs",
+    "corporate": {
+      "title": "Corporate Law",
+      "description": "Strategic legal guidance for businesses, mergers, acquisitions, and corporate governance matters"
+    },
+    "litigation": {
+      "title": "Litigation",
+      "description": "Expert representation in complex commercial disputes and civil litigation proceedings"
+    },
+    "international": {
+      "title": "International Law",
+      "description": "Cross-border transactions, international arbitration, and global compliance solutions"
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "description": "Protection and enforcement of patents, trademarks, copyrights, and trade secrets"
+    },
+    "real": {
+      "title": "Real Estate",
+      "description": "Comprehensive legal support for property transactions, development, and real estate investments"
+    },
+    "tax": {
+      "title": "Tax Law",
+      "description": "Strategic tax planning, compliance, and dispute resolution services"
+    }
+  },
+  "about": {
+    "title": "About Black Swan Law",
+    "subtitle": "Leading the way in legal innovation",
+    "description": "Black Swan Law is a premier international law firm dedicated to providing exceptional legal services. Our team of experienced attorneys combines deep legal expertise with innovative approaches to deliver outstanding results for our clients.",
+    "mission": "Our mission is to provide strategic legal counsel that empowers our clients to achieve their goals while navigating complex legal landscapes with confidence.",
+    "stats": {
+      "clients": "Satisfied Clients",
+      "cases": "Cases Won",
+      "attorneys": "Expert Attorneys",
+      "countries": "Countries Served"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet our distinguished attorneys",
+    "role": {
+      "managing": "Managing Partner",
+      "senior": "Senior Partner",
+      "partner": "Partner"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our legal experts",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": "Address",
+      "addressText": "123 Legal District, City Center, Country",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours",
+      "hoursText": "Monday - Friday: 9:00 AM - 6:00 PM"
+    }
+  },
+  "footer": {
+    "description": "Black Swan Law - Excellence in legal services since 1995",
+    "copyright": "© 2025 Black Swan Law. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

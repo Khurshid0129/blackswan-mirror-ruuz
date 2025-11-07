@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "team": "Jamoa",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "title": "Yuridik xizmatlarda mukammallik",
+    "subtitle": "Black Swan Law mijozlar muvaffaqiyatiga sodiq holda keng qamrovli yuridik yechimlarni taqdim etadi",
+    "cta": "Konsultatsiya olish",
+    "experience": "Yillik tajriba"
+  },
+  "services": {
+    "title": "Bizning xizmatlarimiz",
+    "subtitle": "Sizning ehtiyojlaringizga moslashtirilgan kompleks yuridik yechimlar",
+    "corporate": {
+      "title": "Korporativ huquq",
+      "description": "Biznes, qo'shilishlar, sotib olishlar va korporativ boshqaruv masalalari bo'yicha strategik yuridik yo'l-yo'riq"
+    },
+    "litigation": {
+      "title": "Sud jarayonlari",
+      "description": "Murakkab tijorat nizolari va fuqarolik sud jarayonlarida mutaxassis vakillik"
+    },
+    "international": {
+      "title": "Xalqaro huquq",
+      "description": "Transchegaraviy bitimlar, xalqaro arbitraj va global muvofiqlik yechimlari"
+    },
+    "intellectual": {
+      "title": "Intellektual mulk",
+      "description": "Patentlar, savdo belgilari, mualliflik huquqlari va tijorat sirlarini himoya qilish va amalga oshirish"
+    },
+    "real": {
+      "title": "Ko'chmas mulk",
+      "description": "Mulk bilan bitimlar, rivojlantirish va ko'chmas mulkka investitsiyalar uchun kompleks yuridik yordam"
+    },
+    "tax": {
+      "title": "Soliq huquqi",
+      "description": "Strategik soliq rejalashtirish, muvofiqlik va nizolarni hal qilish xizmatlari"
+    }
+  },
+  "about": {
+    "title": "Black Swan Law haqida",
+    "subtitle": "Yuridik innovatsiyalarda yetakchi",
+    "description": "Black Swan Law mukammal yuridik xizmatlarni taqdim etishga bag'ishlangan yetakchi xalqaro yuridik firma. Bizning tajribali advokatlar jamoamiz mijozlarimiz uchun ajoyib natijalarni taqdim etish uchun chuqur yuridik tajriba va innovatsion yondashuvlarni birlashtiradi.",
+    "mission": "Bizning vazifamiz - mijozlarimizga murakkab huquqiy landshaftlarda ishonch bilan harakat qilib, maqsadlariga erishishga yordam beradigan strategik yuridik maslahat berishdir.",
+    "stats": {
+      "clients": "Mamnun mijozlar",
+      "cases": "Yutilgan ishlar",
+      "attorneys": "Mutaxassis advokatlar",
+      "countries": "Xizmat ko'rsatiladigan mamlakatlar"
+    }
+  },
+  "team": {
+    "title": "Bizning jamoa",
+    "subtitle": "Bizning taniqli advokatlarimiz bilan tanishing",
+    "role": {
+      "managing": "Boshqaruvchi hamkor",
+      "senior": "Katta hamkor",
+      "partner": "Hamkor"
+    }
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "subtitle": "Yuridik mutaxassislarimiz bilan bog'laning",
+    "form": {
+      "name": "To'liq ism",
+      "email": "Elektron pochta",
+      "phone": "Telefon raqami",
+      "message": "Xabar",
+      "submit": "Xabar yuborish"
+    },
+    "info": {
+      "address": "Manzil",
+      "addressText": "Yuridik tuman 123, Shahar markazi, Mamlakat",
+      "phone": "Telefon",
+      "email": "Elektron pochta",
+      "hours": "Ish vaqti",
+      "hoursText": "Dushanba - Juma: 9:00 - 18:00"
+    }
+  },
+  "footer": {
+    "description": "Black Swan Law - 1995 yildan beri yuridik xizmatlarda mukammallik",
+    "copyright": "© 2025 Black Swan Law. Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
+  }
+}
