@@ -20,14 +20,14 @@ export const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block mb-6 px-4 py-2 bg-secondary border border-border">
-            <span className="text-primary font-semibold">25+ {t('hero.experience')}</span>
+            <span className="text-primary font-semibold font-sans">25+ {t('hero.experience')}</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight font-playfair">
             {t('hero.title')}
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed font-sans font-light">
             {t('hero.subtitle')}
           </p>
           

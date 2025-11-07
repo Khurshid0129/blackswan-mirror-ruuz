@@ -36,10 +36,10 @@ export const Services = () => {
     <section id="services" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-playfair">
             {t('services.title')}
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-sans">
             {t('services.subtitle')}
           </p>
         </div>
@@ -56,10 +56,10 @@ export const Services = () => {
                   <div className="w-16 h-16 bg-secondary flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
                     <Icon className="w-8 h-8 text-primary" />
                   </div>
-                  <h3 className="text-2xl font-bold text-foreground mb-4">
+                  <h3 className="text-2xl font-bold text-foreground mb-4 font-playfair">
                     {t(`services.${service.key}.title`)}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed font-sans">
                     {t(`services.${service.key}.description`)}
                   </p>
                 </CardContent>

@@ -16,17 +16,17 @@ export const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-playfair">
               {t('about.title')}
             </h2>
-            <p className="text-xl text-primary mb-8">{t('about.subtitle')}</p>
+            <p className="text-xl text-primary mb-8 font-sans font-light">{t('about.subtitle')}</p>
           </div>
 
           <div className="space-y-8 mb-16">
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed font-sans">
               {t('about.description')}
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed font-sans">
               {t('about.mission')}
             </p>
           </div>

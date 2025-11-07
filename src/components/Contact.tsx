@@ -45,20 +45,20 @@ export const Contact = () => {
     <section id="contact" className="py-24 bg-secondary">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-playfair">
             {t('contact.title')}
           </h2>
-          <p className="text-xl text-muted-foreground">{t('contact.subtitle')}</p>
+          <p className="text-xl text-muted-foreground font-sans">{t('contact.subtitle')}</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <Card className="bg-card border-border">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6 font-sans">
                 <div>
                   <Input
                     placeholder={t('contact.form.name')}
-                    className="bg-secondary border-border"
+                    className="bg-secondary border-border font-sans"
                     required
                   />
                 </div>
@@ -66,7 +66,7 @@ export const Contact = () => {
                   <Input
                     type="email"
                     placeholder={t('contact.form.email')}
-                    className="bg-secondary border-border"
+                    className="bg-secondary border-border font-sans"
                     required
                   />
                 </div>
@@ -74,20 +74,20 @@ export const Contact = () => {
                   <Input
                     type="tel"
                     placeholder={t('contact.form.phone')}
-                    className="bg-secondary border-border"
+                    className="bg-secondary border-border font-sans"
                   />
                 </div>
                 <div>
                   <Textarea
                     placeholder={t('contact.form.message')}
                     rows={6}
-                    className="bg-secondary border-border"
+                    className="bg-secondary border-border font-sans"
                     required
                   />
                 </div>
                 <Button
                   type="submit"
-                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-poppins uppercase tracking-wide"
                 >
                   {t('contact.form.submit')}
                 </Button>
@@ -105,8 +105,8 @@ export const Contact = () => {
                       <Icon className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-foreground mb-1">{item.label}</h3>
-                      <p className="text-muted-foreground">{item.value}</p>
+                      <h3 className="text-lg font-bold text-foreground mb-1 font-sans">{item.label}</h3>
+                      <p className="text-muted-foreground font-sans">{item.value}</p>
                     </div>
                   </CardContent>
                 </Card>

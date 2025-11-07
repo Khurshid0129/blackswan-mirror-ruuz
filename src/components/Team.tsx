@@ -31,10 +31,10 @@ export const Team = () => {
     <section id="team" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-playfair">
             {t('team.title')}
           </h2>
-          <p className="text-xl text-muted-foreground">{t('team.subtitle')}</p>
+          <p className="text-xl text-muted-foreground font-sans">{t('team.subtitle')}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -48,9 +48,9 @@ export const Team = () => {
                   {member.name.charAt(0)}
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-foreground mb-2">{member.name}</h3>
-                  <p className="text-primary text-sm mb-1">{t(`team.role.${member.role}`)}</p>
-                  <p className="text-muted-foreground text-sm">{member.specialty}</p>
+                  <h3 className="text-xl font-bold text-foreground mb-2 font-playfair">{member.name}</h3>
+                  <p className="text-primary text-sm mb-1 font-sans">{t(`team.role.${member.role}`)}</p>
+                  <p className="text-muted-foreground text-sm font-sans">{member.specialty}</p>
                 </div>
               </CardContent>
             </Card>
