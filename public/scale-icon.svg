@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Центральная опора -->
+  <line x1="12" y1="2" x2="12" y2="8"/>
+  <!-- Верхняя перекладина -->
+  <line x1="6" y1="8" x2="18" y2="8"/>
+  <!-- Левая чаша -->
+  <path d="M6 8 L2 12 L2 16 L6 16 L10 16 L10 12 Z"/>
+  <!-- Правая чаша -->
+  <path d="M18 8 L22 12 L22 16 L18 16 L14 16 L14 12 Z"/>
+  <!-- Подвесы -->
+  <line x1="6" y1="8" x2="6" y2="10"/>
+  <line x1="18" y1="8" x2="18" y2="10"/>
+</svg>
