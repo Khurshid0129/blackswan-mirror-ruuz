@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className={`grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
           <div>
             <div className="text-2xl font-bold text-foreground mb-4 font-playfair tracking-wider transition-transform duration-300 hover:scale-105">
-              <span className="text-primary">LOW</span> AGENCY
+              <span className="text-primary">LAW</span> AGENCY
             </div>
             <p className="text-muted-foreground font-sans">{t('footer.description')}</p>
           </div>

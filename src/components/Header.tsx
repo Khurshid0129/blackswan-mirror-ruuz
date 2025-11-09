@@ -59,6 +59,8 @@ export const Header = () => {
               variant="ghost"
               size="icon"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? t('nav.closeMenu', 'Close menu') : t('nav.openMenu', 'Open menu')}
+              aria-expanded={mobileMenuOpen}
             >
               <Menu className="h-6 w-6" />
             </Button>
@@ -67,7 +69,11 @@ export const Header = () => {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden mt-3 bg-background/95 px-4 py-4 rounded-b-md border-t border-border flex flex-col gap-3 animate-fade-in-down">
+          <div 
+            className="md:hidden mt-3 bg-background/95 px-4 py-4 rounded-b-md border-t border-border flex flex-col gap-3 animate-fade-in-down"
+            role="menu"
+            aria-label={t('nav.menu', 'Navigation menu')}
+          >
             <button
               onClick={() => scrollToSection('home')}
               className="text-foreground hover:text-primary transition-colors text-left py-2"

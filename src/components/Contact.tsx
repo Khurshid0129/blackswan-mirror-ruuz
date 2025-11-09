@@ -6,18 +6,48 @@ import { Button } from '@/components/ui/button';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
+import { useState } from 'react';
 
 export const Contact = () => {
   const { t } = useTranslation();
   const { toast } = useToast();
   const { ref, isVisible } = useScrollAnimation(0.1);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    
+    // Simulate API call
+    await new Promise(resolve => setTimeout(resolve, 500));
+    
     toast({
-      title: 'Message sent!',
-      description: 'We will get back to you as soon as possible.',
+      title: t('contact.form.successTitle', 'Message sent!'),
+      description: t('contact.form.successDescription', 'We will get back to you as soon as possible.'),
     });
+    
+    // Clear form
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+    });
+    
+    setIsSubmitting(false);
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
   };
 
   const contactInfo = [
@@ -65,6 +95,9 @@ export const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6 font-sans">
                 <div>
                   <Input
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     placeholder={t('contact.form.name')}
                     className="bg-white border-accent/30 font-sans transition-all duration-300 focus:border-primary focus:ring-2 focus:ring-primary/20"
                     required
@@ -72,7 +105,10 @@ export const Contact = () => {
                 </div>
                 <div>
                   <Input
+                    name="email"
                     type="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     placeholder={t('contact.form.email')}
                     className="bg-white border-accent/30 font-sans transition-all duration-300 focus:border-primary focus:ring-2 focus:ring-primary/20"
                     required
@@ -80,13 +116,19 @@ export const Contact = () => {
                 </div>
                 <div>
                   <Input
+                    name="phone"
                     type="tel"
+                    value={formData.phone}
+                    onChange={handleChange}
                     placeholder={t('contact.form.phone')}
                     className="bg-white border-accent/30 font-sans transition-all duration-300 focus:border-primary focus:ring-2 focus:ring-primary/20"
                   />
                 </div>
                 <div>
                   <Textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     placeholder={t('contact.form.message')}
                     rows={6}
                     className="bg-white border-accent/30 font-sans transition-all duration-300 focus:border-primary focus:ring-2 focus:ring-primary/20"
@@ -95,9 +137,10 @@ export const Contact = () => {
                 </div>
                 <Button
                   type="submit"
-                  className="w-full bg-secondary text-white hover:bg-secondary/90 font-sans uppercase tracking-wide transition-all duration-300 hover:scale-105"
+                  disabled={isSubmitting}
+                  className="w-full bg-secondary text-white hover:bg-secondary/90 font-sans uppercase tracking-wide transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {t('contact.form.submit')}
+                  {isSubmitting ? t('contact.form.submitting', 'Sending...') : t('contact.form.submit')}
                 </Button>
               </form>
             </CardContent>

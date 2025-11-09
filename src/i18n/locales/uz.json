@@ -4,7 +4,10 @@
     "services": "Xizmatlar",
     "about": "Biz haqimizda",
     "team": "Jamoa",
-    "contact": "Aloqa"
+    "contact": "Aloqa",
+    "menu": "Navigatsiya menyusi",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish"
   },
   "hero": {
     "title": "Yuridik xizmatlarda mukammallik",
@@ -83,7 +86,10 @@
       "email": "Elektron pochta",
       "phone": "Telefon raqami",
       "message": "Xabar",
-      "submit": "Xabar yuborish"
+      "submit": "Xabar yuborish",
+      "submitting": "Yuborilmoqda...",
+      "successTitle": "Xabar yuborildi!",
+      "successDescription": "Biz sizga imkon qadar tezroq javob beramiz."
     },
     "info": {
       "address": "Manzil",
