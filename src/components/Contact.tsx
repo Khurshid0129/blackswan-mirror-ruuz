@@ -213,7 +213,7 @@ export const Contact = () => {
                     <div>
                         <h3 className="text-base sm:text-lg font-normal text-secondary mb-1">LinkedIn</h3>
                       <p className="text-sm sm:text-base text-secondary/80">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Visit our LinkedIn</a>
+                        <a href="https://www.linkedin.com/company/justicecapital" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Visit our LinkedIn</a>
                       </p>
                     </div>
                   </div>
@@ -225,7 +225,7 @@ export const Contact = () => {
                     <div>
                         <h3 className="text-base sm:text-lg font-normal text-secondary mb-1">Instagram</h3>
                       <p className="text-sm sm:text-base text-secondary/80">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Follow us on Instagram</a>
+                        <a href="https://www.instagram.com/justicecapital" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Follow us on Instagram</a>
                       </p>
                     </div>
                   </div>
@@ -237,7 +237,7 @@ export const Contact = () => {
                     <div>
                         <h3 className="text-base sm:text-lg font-normal text-secondary mb-1">Telegram</h3>
                       <p className="text-sm sm:text-base text-secondary/80">
-                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Join us on Telegram</a>
+                        <a href="https://t.me/justicecapital" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Join us on Telegram</a>
                       </p>
                     </div>
                   </div>
