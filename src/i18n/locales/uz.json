@@ -1,54 +1,107 @@
 {
   "nav": {
     "home": "Bosh sahifa",
-    "services": "Xizmatlar",
+    "solutions": "Yechimlar",
     "about": "Biz haqimizda",
     "team": "Jamoa",
     "contact": "Aloqa"
   },
   "hero": {
-    "title": "Yuridik xizmatlarda mukammallik",
-  "subtitle": "Biz O'zbekistonda professional da'vo va arbitraj moliyalashtirishini taklif qiluvchi birinchi kompaniyamiz.\nBiz kuchli ishlar likvidlik bilan cheklanmasligi uchun sud xarajatlari, ekspertlar va sud xarajatlarini moliyalashtiramiz.\nBizning echimlarimiz yagona ish va portfel moliyalashtirish, ijro va xalqaro arbitrajni qamrab oladi.\nBizning modelimiz shaffof, axloqiy va xalqaro da'vo moliyalashtirish standartlariga mos keladi.\nBizning missiyamiz — adolatni moliyaviy jihatdan erishish mumkin qilishdir.",
-    "cta": "Konsultatsiya olish",
+    "title": "Justice Capital: Ishonchli da'volar uchun da'vo moliyalashtirish",
+    "subtitle": "Biz kuchli tijorat nizolarini, arbitraj va ijro harakatlarini moliyalashtiramiz, shunda adolat mablag' oqimi bilan cheklanmasdan, faqat ishning mohiyati bilan boshqariladi.",
+    "paragraph": "Justice Capital - O'zbekistonda joylashgan va asosiy xalqaro yurisdiktsiyalarga kirish imkoniyatiga ega bo'lgan maxsus da'vo moliyalashtirish platformasi. Biz yuridik xarajatlar, ekspertlar va ijro uchun qaytarib olinmaydigan moliyalashtirishni taqdim etamiz, bu bizneslar, banklar va yuridik firmalarga ishchi kapitalini bloklamasdan yuqori qiymatli da'volarni amalga oshirishga yordam beradi. Bizning yondashuvimiz shaffof, axloqiy va yetakchi global da'vo moliyalashtirish standartlariga mos keladi.",
+    "cta": "Moliyalashtirishni baholash",
     "experience": "Yillik tajriba"
+  },
+  "whoWeSupport": {
+    "title": "Kimlarni qo'llab-quvvatlaymiz",
+    "businesses": {
+      "title": "Bizneslar va banklar uchun",
+      "description": "Nizo xarajatlarini balansdan tashqariga chiqaring. Asosli da'volarni monetizatsiya qiling va huquqlaringizni himoya qilishda likvidlikni himoya qiling."
+    },
+    "lawFirms": {
+      "title": "Yuridik firmalar uchun",
+      "description": "Murakkab ishlarni yuritish uchun kapitalga kirish, moslashuvchan to'lov tuzilmalarini taklif qilish va strategik masalalar portfelini kengaytirish."
+    },
+    "crossBorder": {
+      "title": "Transchegaraviy nizolar uchun",
+      "description": "Chet el hamkorlari, arbitraj va global ijro bilan bog'liq ishlar uchun bizning mahalliy tushunchamiz va xalqaro kengaytirilgan imkoniyatlarimizdan foydalaning."
+    }
+  },
+  "whyJusticeCapital": {
+    "title": "Nima uchun Justice Capital",
+    "meritDriven": {
+      "title": "Mohiyatga asoslangan",
+      "description": "Biz faqat kuchli, ijro qilinadigan da'volarni moliyalashtiramiz."
+    },
+    "nonRecourse": {
+      "title": "Qaytarib olinmaydi",
+      "description": "Agar qaytarish bo'lmasa, bizning moliyalashtirishimiz odatda qaytarilmaydi."
+    },
+    "alignedInterests": {
+      "title": "Moslashtirilgan manfaatlar",
+      "description": "Biz mijozlarimiz muvaffaqiyatga erishganda muvaffaqiyatga erishamiz."
+    },
+    "localRoots": {
+      "title": "Mahalliy ildizlar, global kengaytirilgan",
+      "description": "O'zbekistonda joylashgan, asosiy nizolarni hal qilish markazlari bilan bog'langan."
+    }
   },
   "aboutIntro": {
     "title": "Justice Capital farq yaratish",
     "description": "Biz har bir mijozning sharoitlari va maqsadlariga chin qiziqishni moslashuvchan, yaqinlashuvchan va kirish mumkin bo'lgan xizmat modeli bilan birlashtirib, har qanday o'lchamdagi shaxslar, korxonalar va tashkilotlar bilan uzoq muddatli munosabatlarni rivojlantirishga intilamiz."
   },
-  "services": {
-    "title": "Bizning xizmatlarimiz",
-    "subtitle": "Sizning ehtiyojlaringizga moslashtirilgan kompleks yuridik yechimlar",
-    "corporate": {
-      "title": "Korporativ huquq",
-      "description": "Biznes, qo'shilishlar, sotib olishlar va korporativ boshqaruv masalalari bo'yicha strategik yuridik yo'l-yo'riq"
+  "solutions": {
+    "title": "Bizning yechimlarimiz",
+    "intro": "Biz murakkab nizolarda ishtirok etuvchi da'vogarlar, yuridik firmalar va muassasalar uchun moslashuvchan moliyalashtirish strukturalarini loyihalashtiramiz. Bizning yechimlarimiz odatda qaytarib olinmaydi va har bir ishning mohiyati, hajmi va yurisdiktsion profili bo'yicha moslashtiriladi.",
+    "singleCase": {
+      "title": "Yagona ish bo'yicha da'vo va arbitraj moliyalashtirish",
+      "description": "Biz kuchli tijorat da'volari uchun yuridik xarajatlar, ekspert xarajatlari va sud yoki arbitraj xarajatlarini moliyalashtiramiz. Bizning daromadimiz muvaffaqiyatli natijaga bog'liq."
     },
-    "litigation": {
-      "title": "Sud jarayonlari",
-      "description": "Murakkab tijorat nizolari va fuqarolik sud jarayonlarida mutaxassis vakillik"
+    "portfolio": {
+      "title": "Portfel moliyalashtirish",
+      "description": "Biz korporatsiyalar yoki yuridik firmalar uchun ishlar portfeliga qarshi kafolatlanadigan kapitalni taqdim etamiz, bu xavfni diversifikatsiya qiladi va bir nechta nizolarda pul oqimini barqarorlashtiradi."
     },
-    "international": {
-      "title": "Xalqaro huquq",
-      "description": "Transchegaraviy bitimlar, xalqaro arbitraj va global muvofiqlik yechimlari"
+    "judgment": {
+      "title": "Hukm va mukofot monetizatsiyasi",
+      "description": "Biz mijozlarga yakuniy hukmlar va arbitraj mukofotlarini darhol likvidlikka aylantirishga yordam beramiz, kutilayotgan qaytarishning bir qismini sotib olish yoki moliyalashtirish orqali."
     },
-    "intellectual": {
-      "title": "Intellektual mulk",
-      "description": "Patentlar, savdo belgilari, mualliflik huquqlari va tijorat sirlarini himoya qilish va amalga oshirish"
+    "enforcement": {
+      "title": "Ijro va aktivlarni qaytarish moliyalashtirish",
+      "description": "Biz tegishli yurisdiktsiyalarda aktivlarni kuzatish, ijro strategiyalari va qaytarish harakatlarini moliyalashtiramiz, bu huquqiy g'alabalarni haqiqiy to'lovlarga aylantiradi."
     },
-    "real": {
-      "title": "Ko'chmas mulk",
-      "description": "Mulk bilan bitimlar, rivojlantirish va ko'chmas mulkka investitsiyalar uchun kompleks yuridik yordam"
+    "insolvency": {
+      "title": "To'lov qobiliyatining yo'qolishi, firibgarlik va maxsus vaziyatlar",
+      "description": "Biz to'lov qobiliyatining yo'qolishi, firibgarlik, aksiyadorlar va boshqaruv nizolaridan kelib chiqadigan da'volarni qo'llab-quvvatlaymiz, bu erda an'anaviy moliyalashtirish mavjud emas, lekin qaytarish potentsiali sezilarli."
     },
-    "tax": {
-      "title": "Soliq huquqi",
-      "description": "Strategik soliq rejalashtirish, muvofiqlik va nizolarni hal qilish xizmatlari"
+    "riskSharing": {
+      "title": "Xavfni bo'lishish va himoya yechimlari",
+      "description": "Tanlangan ishlar uchun biz javobgarlar yoki muassasalar uchun pastki ekspozitsiyani cheklaydigan strukturalarni taklif qilamiz, aniq belgilangan natijalar bo'yicha da'vo xavfini bo'lishamiz."
     }
   },
   "about": {
-  "title": "Justice Capital haqida",
-    "subtitle": "Yuridik innovatsiyalarda yetakchi",
-  "description": "Justice Capital mukammal yuridik xizmatlarni taqdim etishga bag'ishlangan yetakchi xalqaro yuridik firma. Bizning tajribali advokatlar jamoamiz mijozlarimiz uchun ajoyib natijalarni taqdim etish uchun chuqur yuridik tajriba va innovatsion yondashuvlarni birlashtiradi.",
-    "mission": "Bizning vazifamiz - mijozlarimizga murakkab huquqiy landshaftlarda ishonch bilan harakat qilib, maqsadlariga erishishga yordam beradigan strategik yuridik maslahat berishdir.",
+    "title": "Justice Capital haqida",
+    "subtitle": "O'zbekistonda va undan tashqarida da'vo moliyalashtirishda kashshof.",
+    "textBlock1": "Justice Capital - yuqori qiymatli tijorat nizolariga, xalqaro arbitraj va transchegaraviy ijroga qaratilgan maxsus da'vo moliyalashtirish platformasi. O'zbekistondan kelib chiqqan holda, biz mijozlarga xavfni bo'lishish va da'voga bog'langan kapitalni ochish orqali huquqiy da'volarni moliyaviy aktivlarga aylantirishga yordam beramiz.",
+    "textBlock2": "Bizning jamoamiz nizolarni hal qilish, bank va moliyalashtirish, aktivlarni qaytarish va muvofiqlik sohalaridagi tajribani birlashtiradi. Biz har bir ishni institutsional intizom bilan baholaymiz - mohiyat, ijro qilinishi va qaytarish imkoniyatlarini tahlil qilamiz - va bizning manfaatlarimizni mijozlarimizning manfaatlari bilan moslashtiradigan qaytarib olinmaydigan moliyalashtirish yechimlarini tuzamiz.",
+    "values": {
+      "integrity": {
+        "title": "Halollik",
+        "description": "Huquqiy, axloqiy va me'yoriy standartlarga qat'iy rioya qilish."
+      },
+      "transparency": {
+        "title": "Shaffoflik",
+        "description": "Aniq shartlar, to'g'ridan-to'g'ri iqtisodiyot, yashirin shartlar yo'q."
+      },
+      "discipline": {
+        "title": "Intizom",
+        "description": "Moliyalashtirilgan ishlarni tanlash, xavfni boshqarish va monitoring qilishda mustahkam yondashuv."
+      },
+      "partnership": {
+        "title": "Hamkorlik",
+        "description": "Biz yetakchi yuridik firmalar va ekspertlar bilan uzoq muddatli strategik hamkorlar sifatida ishlaymiz."
+      }
+    },
     "stats": {
       "clients": "Mamnun mijozlar",
       "cases": "Yutilgan ishlar",
@@ -80,8 +133,8 @@
     }
   },
   "contact": {
-    "title": "Biz bilan bog'laning",
-    "subtitle": "Yuridik mutaxassislarimiz bilan bog'laning",
+    "title": "Justice Capital bilan bog'laning",
+    "intro": "Nizoingiz, mukofot yoki ijro masalasi haqida qisqa ma'lumot bering. Bizning jamoamiz ma'lumotlarni maxfiy ko'rib chiqadi va potentsial moliyalashtirish variantlari va keyingi qadamlar bilan javob beradi.",
     "form": {
       "name": "To'liq ism",
       "email": "Elektron pochta",
@@ -96,7 +149,7 @@
     },
     "info": {
       "address": "Manzil",
-      "addressText": "Toshkent, str. Justice Capital",
+      "addressText": "Justice Capital str. 55.",
       "phone": "Telefon",
       "email": "Elektron pochta",
       "hours": "Ish vaqti",

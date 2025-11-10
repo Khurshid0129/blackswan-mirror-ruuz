@@ -1,54 +1,107 @@
 {
   "nav": {
     "home": "Home",
-    "services": "Services",
+    "solutions": "Solutions",
     "about": "About",
     "team": "Team",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Excellence in Legal Services",
-  "subtitle": "We are the first company in Uzbekistan offering professional litigation and arbitration finance.\nWe fund legal fees, experts, and court expenses so that strong cases are not limited by liquidity.\nOur solutions cover single-case and portfolio financing, enforcement, and international arbitration.\nOur model is transparent, ethical, and aligned with international litigation finance standards.\nOur mission is to make justice financially achievable.",
-    "cta": "Get Consultation",
+    "title": "Justice Capital: Litigation Finance for Confident Claims",
+    "subtitle": "We fund strong commercial disputes, arbitrations and enforcement actions so that justice is driven by merits, not limited by cash flow.",
+    "paragraph": "Justice Capital is a dedicated litigation finance platform based in Uzbekistan with access to key international jurisdictions. We provide non-recourse funding for legal fees, experts and enforcement, helping businesses, banks and law firms pursue high-value claims without locking their working capital. Our approach is transparent, ethical and aligned with leading global litigation finance standards.",
+    "cta": "Get Funding Assessment",
     "experience": "Years of Excellence"
+  },
+  "whoWeSupport": {
+    "title": "Who We Support",
+    "businesses": {
+      "title": "For Businesses & Banks",
+      "description": "Shift dispute costs off your balance sheet. Monetize meritorious claims and protect liquidity while pursuing your rights."
+    },
+    "lawFirms": {
+      "title": "For Law Firms",
+      "description": "Access capital to run complex cases, offer flexible fee arrangements and expand your strategic matters portfolio."
+    },
+    "crossBorder": {
+      "title": "For Cross-Border Disputes",
+      "description": "Leverage our local insight and international reach for cases involving foreign counterparties, arbitration and global enforcement."
+    }
+  },
+  "whyJusticeCapital": {
+    "title": "Why Justice Capital",
+    "meritDriven": {
+      "title": "Merit-Driven",
+      "description": "We fund strong, enforceable claims only."
+    },
+    "nonRecourse": {
+      "title": "Non-Recourse",
+      "description": "If there is no recovery, our funding is typically not repayable."
+    },
+    "alignedInterests": {
+      "title": "Aligned Interests",
+      "description": "We succeed when our clients succeed."
+    },
+    "localRoots": {
+      "title": "Local Roots, Global Reach",
+      "description": "Based in Uzbekistan, connected to major dispute resolution hubs."
+    }
   },
   "aboutIntro": {
     "title": "Justice Capital creating the difference",
     "description": "We aim to foster long term relationships with individuals, businesses and organisations of all sizes by combining a genuine interest in each client's circumstances and goals with an adaptable, approachable and accessible service model."
   },
-  "services": {
-    "title": "Our Services",
-    "subtitle": "Comprehensive legal solutions tailored to your needs",
-    "corporate": {
-      "title": "Corporate Law",
-      "description": "Strategic legal guidance for businesses, mergers, acquisitions, and corporate governance matters"
+  "solutions": {
+    "title": "Our Solutions",
+    "intro": "We design flexible funding structures for claimants, law firms and institutions involved in complex disputes. Our solutions are typically non-recourse and tailored to the merits, size and jurisdictional profile of each case.",
+    "singleCase": {
+      "title": "Single-Case Litigation & Arbitration Funding",
+      "description": "We finance legal fees, expert costs and court or arbitration expenses for strong commercial claims. Our return is linked to a successful outcome."
     },
-    "litigation": {
-      "title": "Litigation",
-      "description": "Expert representation in complex commercial disputes and civil litigation proceedings"
+    "portfolio": {
+      "title": "Portfolio Financing",
+      "description": "We provide capital secured against a portfolio of cases for corporates or law firms, diversifying risk and stabilizing cash flow across multiple disputes."
     },
-    "international": {
-      "title": "International Law",
-      "description": "Cross-border transactions, international arbitration, and global compliance solutions"
+    "judgment": {
+      "title": "Judgment & Award Monetization",
+      "description": "We help clients convert final judgments and arbitral awards into immediate liquidity by purchasing or financing a portion of the expected recovery."
     },
-    "intellectual": {
-      "title": "Intellectual Property",
-      "description": "Protection and enforcement of patents, trademarks, copyrights, and trade secrets"
+    "enforcement": {
+      "title": "Enforcement & Asset Recovery Funding",
+      "description": "We fund asset tracing, enforcement strategies and recovery actions in relevant jurisdictions to transform legal victories into actual collections."
     },
-    "real": {
-      "title": "Real Estate",
-      "description": "Comprehensive legal support for property transactions, development, and real estate investments"
+    "insolvency": {
+      "title": "Insolvency, Fraud & Special Situations",
+      "description": "We support claims arising from insolvency, fraud, shareholder and governance disputes, where traditional financing is unavailable but recovery potential is significant."
     },
-    "tax": {
-      "title": "Tax Law",
-      "description": "Strategic tax planning, compliance, and dispute resolution services"
+    "riskSharing": {
+      "title": "Risk-Sharing & Defense Solutions",
+      "description": "For selected cases, we offer structures that cap downside exposure for defendants or institutions, sharing litigation risk under clearly defined outcomes."
     }
   },
   "about": {
-  "title": "About Justice Capital",
-    "subtitle": "Leading the way in legal innovation",
-  "description": "Justice Capital is a premier international law firm dedicated to providing exceptional legal services. Our team of experienced attorneys combines deep legal expertise with innovative approaches to deliver outstanding results for our clients.",
-    "mission": "Our mission is to provide strategic legal counsel that empowers our clients to achieve their goals while navigating complex legal landscapes with confidence.",
+    "title": "About Justice Capital",
+    "subtitle": "Pioneering litigation finance in Uzbekistan and beyond.",
+    "textBlock1": "Justice Capital is a specialized litigation finance platform focused on high-value commercial disputes, international arbitration and cross-border enforcement. Originating from Uzbekistan, we help clients turn legal claims into financial assets by sharing risk and unlocking capital tied up in litigation.",
+    "textBlock2": "Our team combines experience in dispute resolution, banking and finance, asset recovery and compliance. We assess each case with institutional discipline – analysing merits, enforceability and recovery prospects – and structure non-recourse funding solutions that align our interests with those of our clients.",
+    "values": {
+      "integrity": {
+        "title": "Integrity",
+        "description": "Strict adherence to legal, ethical and regulatory standards."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Clear terms, straightforward economics, no hidden conditions."
+      },
+      "discipline": {
+        "title": "Discipline",
+        "description": "Robust selection, risk management and monitoring of funded cases."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We work alongside leading law firms and experts as long-term strategic partners."
+      }
+    },
     "stats": {
       "clients": "Satisfied Clients",
       "cases": "Cases Won",
@@ -80,8 +133,8 @@
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our legal experts",
+    "title": "Contact Justice Capital",
+    "intro": "Share a brief outline of your dispute, award or enforcement matter. Our team will review the information confidentially and respond with potential funding options and next steps.",
     "form": {
       "name": "Full Name",
       "email": "Email Address",
@@ -96,7 +149,7 @@
     },
     "info": {
       "address": "Address",
-      "addressText": "Tashkent, str. Justice Capital",
+      "addressText": "Justice Capital str. 55.",
       "phone": "Phone",
       "email": "Email",
       "hours": "Business Hours",

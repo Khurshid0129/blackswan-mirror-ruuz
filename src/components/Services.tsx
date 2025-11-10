@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
-import { Scale, Users, Globe2, Lightbulb, Building2, Calculator } from 'lucide-react';
+import { Scale, Briefcase, DollarSign, Search, AlertTriangle, Shield } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 
 export const Services = () => {
@@ -9,40 +9,51 @@ export const Services = () => {
 
   const services = [
     {
-      icon: Building2,
-      key: 'corporate',
-    },
-    {
       icon: Scale,
-      key: 'litigation',
+      key: 'singleCase',
     },
     {
-      icon: Globe2,
-      key: 'international',
+      icon: Briefcase,
+      key: 'portfolio',
     },
     {
-      icon: Lightbulb,
-      key: 'intellectual',
+      icon: DollarSign,
+      key: 'judgment',
     },
     {
-      icon: Users,
-      key: 'real',
+      icon: Search,
+      key: 'enforcement',
     },
     {
-      icon: Calculator,
-      key: 'tax',
+      icon: AlertTriangle,
+      key: 'insolvency',
+    },
+    {
+      icon: Shield,
+      key: 'riskSharing',
     },
   ];
 
   return (
-    <section id="services" className="pt-0 pb-24 bg-white" ref={ref}>
-      <div className="container mx-auto px-6">
-        <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-          <h2 className="text-4xl md:text-5xl font-normal text-secondary mb-4 font-serif">
-            {t('services.title')}
+    <section 
+      id="solutions" 
+      className="py-20 md:py-24 relative overflow-hidden bg-cover bg-center bg-no-repeat bg-secondary"
+      style={{
+        backgroundImage: "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80')",
+      }}
+      ref={ref}
+    >
+      <div className="absolute inset-0 bg-gradient-to-b from-secondary/95 via-secondary/90 to-secondary/95"></div>
+      <div className="container mx-auto px-6 relative z-10">
+        <div className={`text-center mb-12 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
+          <h2 className="text-4xl md:text-5xl font-normal text-white mb-4 font-serif">
+            {t('solutions.title')}
           </h2>
-          <p className="text-xl text-secondary/80 max-w-2xl mx-auto font-sans">
-            {t('services.subtitle')}
+        </div>
+
+        <div className={`max-w-4xl mx-auto mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+          <p className="text-lg text-white/90 leading-relaxed font-sans text-center">
+            {t('solutions.intro')}
           </p>
         </div>
 
@@ -52,20 +63,20 @@ export const Services = () => {
             return (
               <Card
                 key={service.key}
-                className={`bg-white border-accent/20 hover:border-primary/30 hover:shadow-lg transition-all duration-300 group cursor-pointer hover-lift ${
+                className={`bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 hover:border-white/30 hover:shadow-lg transition-all duration-300 group cursor-pointer hover-lift ${
                   isVisible ? 'animate-fade-in-up' : 'opacity-0'
                 }`}
                 style={{ animationDelay: `${index * 0.1}s`, animationFillMode: 'both' }}
               >
                 <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-accent/30 flex items-center justify-center mb-6 rounded-lg group-hover:bg-accent transition-all duration-300 group-hover:scale-110">
-                    <Icon className="w-8 h-8 text-primary transition-transform duration-300 group-hover:rotate-6" />
+                  <div className="w-16 h-16 bg-white/20 flex items-center justify-center mb-6 rounded-lg group-hover:bg-white/30 transition-all duration-300 group-hover:scale-110">
+                    <Icon className="w-8 h-8 text-white transition-transform duration-300 group-hover:rotate-6" />
                   </div>
-                  <h3 className="text-2xl font-normal text-secondary mb-4 font-serif">
-                    {t(`services.${service.key}.title`)}
+                  <h3 className="text-2xl font-normal text-white mb-4 font-serif">
+                    {t(`solutions.${service.key}.title`)}
                   </h3>
-                  <p className="text-secondary/80 leading-relaxed font-sans">
-                    {t(`services.${service.key}.description`)}
+                  <p className="text-white/90 leading-relaxed font-sans">
+                    {t(`solutions.${service.key}.description`)}
                   </p>
                 </CardContent>
               </Card>

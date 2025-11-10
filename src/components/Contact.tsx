@@ -104,15 +104,20 @@ export const Contact = () => {
   return (
     <section 
       id="contact" 
-      className="py-24 relative overflow-hidden bg-accent/30"
+      className="py-20 md:py-24 relative overflow-hidden bg-accent/30"
       ref={ref}
     >
       <div className="container mx-auto px-6 relative z-10">
-        <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
+        <div className={`text-center mb-12 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-normal text-secondary mb-4 font-serif">
             {t('contact.title')}
           </h2>
-          <p className="text-xl text-secondary/80 font-sans">{t('contact.subtitle')}</p>
+        </div>
+
+        <div className={`max-w-4xl mx-auto mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+          <p className="text-lg text-secondary/80 leading-relaxed font-sans text-center">
+            {t('contact.intro')}
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">

@@ -17,18 +17,18 @@ export const Footer = () => {
             <p className="text-base text-white/90 leading-relaxed font-sans font-normal">{t('footer.description')}</p>
           </div>
 
-          {/* Column 2: Services */}
+          {/* Column 2: Solutions */}
           <div>
-            <h4 className="text-base font-bold text-white mb-6 uppercase tracking-wide font-sans">{t('nav.services')}</h4>
+            <h4 className="text-base font-bold text-white mb-6 uppercase tracking-wide font-sans">{t('nav.solutions')}</h4>
             <ul className="space-y-3 text-white/90 font-sans font-light text-sm">
               <li className="cursor-pointer hover:text-white transition-colors duration-300">
-                {t('services.corporate.title')}
+                {t('solutions.singleCase.title')}
               </li>
               <li className="cursor-pointer hover:text-white transition-colors duration-300">
-                {t('services.litigation.title')}
+                {t('solutions.portfolio.title')}
               </li>
               <li className="cursor-pointer hover:text-white transition-colors duration-300">
-                {t('services.international.title')}
+                {t('solutions.judgment.title')}
               </li>
             </ul>
           </div>

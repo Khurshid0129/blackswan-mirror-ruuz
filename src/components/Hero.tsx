@@ -44,8 +44,12 @@ export const Hero = () => {
             {t('hero.title')}
           </h1>
           
-          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-12 leading-relaxed font-light animate-fade-in-up max-w-lg font-sans" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-4 sm:mb-6 leading-relaxed font-light animate-fade-in-up max-w-lg font-sans" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             {t('hero.subtitle')}
+          </p>
+          
+          <p className="text-sm sm:text-base md:text-lg text-white/90 mb-6 sm:mb-12 leading-relaxed font-light animate-fade-in-up max-w-lg font-sans" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+            {t('hero.paragraph')}
           </p>
           
           <Button

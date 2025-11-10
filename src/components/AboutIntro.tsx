@@ -1,13 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
-import introImage from './image-fa8a8f45-4760-452f-951a-24ce7d5093ea.png';
+import introImage from './new-suit.png';
 
 export const AboutIntro = () => {
   const { t } = useTranslation();
   const { ref, isVisible } = useScrollAnimation(0.1);
 
   return (
-    <section className="py-12 md:py-24 bg-white" ref={ref}>
+    <section className="py-20 md:py-24 bg-white" ref={ref}>
       {/* Text Content - above image, aligned with image left edge */}
       <div className="mb-8 md:mb-16 px-6 md:px-[62px]">
         <div className={`max-w-6xl ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>

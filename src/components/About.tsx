@@ -5,32 +5,56 @@ export const About = () => {
   const { t } = useTranslation();
   const { ref, isVisible } = useScrollAnimation(0.1);
 
+  const values = [
+    { key: 'integrity' },
+    { key: 'transparency' },
+    { key: 'discipline' },
+    { key: 'partnership' },
+  ];
+
   return (
     <section 
       id="about" 
-      className="py-24 relative overflow-hidden bg-cover bg-center bg-no-repeat bg-secondary"
-      style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80')",
-      }}
+      className="pt-12 md:pt-16 pb-20 md:pb-24 bg-white"
       ref={ref}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-secondary/95 via-secondary/90 to-secondary/95"></div>
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
-          <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            <h2 className="text-4xl md:text-5xl font-normal text-white mb-4 font-serif">
+          <div className={`text-center mb-12 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
+            <h2 className="text-4xl md:text-5xl font-normal text-secondary mb-4 font-serif">
               {t('about.title')}
             </h2>
-            <p className="text-xl text-white/90 mb-8 font-sans">{t('about.subtitle')}</p>
+            <p className="text-xl text-secondary/80 mb-8 font-sans">{t('about.subtitle')}</p>
           </div>
 
-          <div className={`space-y-8 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
-            <p className="text-lg text-white/85 leading-relaxed font-sans">
-              {t('about.description')}
+          {/* Text Blocks */}
+          <div className={`space-y-8 mb-12 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+            <p className="text-lg text-secondary/80 leading-relaxed font-sans">
+              {t('about.textBlock1')}
             </p>
-            <p className="text-lg text-white/85 leading-relaxed font-sans">
-              {t('about.mission')}
+            <p className="text-lg text-secondary/80 leading-relaxed font-sans">
+              {t('about.textBlock2')}
             </p>
+          </div>
+
+          {/* Values Grid */}
+          <div className={`${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {values.map((value, index) => (
+                <div
+                  key={value.key}
+                  className={`${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
+                  style={{ animationDelay: `${0.5 + index * 0.1}s`, animationFillMode: 'both' }}
+                >
+                  <h3 className="text-xl font-normal text-secondary font-serif mb-3 border-b border-secondary/20 pb-2">
+                    {t(`about.values.${value.key}.title`)}
+                  </h3>
+                  <p className="text-base text-secondary/80 leading-relaxed font-sans mt-3">
+                    {t(`about.values.${value.key}.description`)}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
