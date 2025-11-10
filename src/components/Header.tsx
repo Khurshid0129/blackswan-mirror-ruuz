@@ -43,16 +43,16 @@ export const Header = () => {
               {t('nav.home')}
             </button>
             <button
-              onClick={() => scrollToSection('solutions')}
-              className="text-white/90 hover:text-white transition-colors uppercase text-sm tracking-wide font-medium"
-            >
-              {t('nav.solutions')}
-            </button>
-            <button
               onClick={() => scrollToSection('about')}
               className="text-white/90 hover:text-white transition-colors uppercase text-sm tracking-wide font-medium"
             >
               {t('nav.about')}
+            </button>
+            <button
+              onClick={() => scrollToSection('solutions')}
+              className="text-white/90 hover:text-white transition-colors uppercase text-sm tracking-wide font-medium"
+            >
+              {t('nav.solutions')}
             </button>
             {/* Team link removed */}
             <button
@@ -88,16 +88,16 @@ export const Header = () => {
               {t('nav.home')}
             </button>
             <button
-              onClick={() => scrollToSection('solutions')}
-              className="text-white/90 hover:text-white transition-colors text-left py-2 uppercase text-sm tracking-wide font-medium"
-            >
-              {t('nav.solutions')}
-            </button>
-            <button
               onClick={() => scrollToSection('about')}
               className="text-white/90 hover:text-white transition-colors text-left py-2 uppercase text-sm tracking-wide font-medium"
             >
               {t('nav.about')}
+            </button>
+            <button
+              onClick={() => scrollToSection('solutions')}
+              className="text-white/90 hover:text-white transition-colors text-left py-2 uppercase text-sm tracking-wide font-medium"
+            >
+              {t('nav.solutions')}
             </button>
             {/* Team link removed */}
             <button
